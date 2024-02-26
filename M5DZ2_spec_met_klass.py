@@ -4,7 +4,7 @@ class House:
 
     def setNewNumberOfFloor(self, floor):
         self.numberOfFloor = floor
+        print('Текущий этаж равен', house.numberOfFloor)
 
 house = House()
 house.setNewNumberOfFloor(100)
-print('Текущий этаж равен', house.numberOfFloor)
