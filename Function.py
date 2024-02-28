@@ -1,7 +1,8 @@
-def print_params(param = 'один'):
+def print_params():
     print(param)
     print(param)
 
-print_params()
+print_params('Один')
+print_params('Два')
 
 #=========================================
