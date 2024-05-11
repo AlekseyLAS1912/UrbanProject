@@ -11,5 +11,5 @@ class EvenNumbers:
             self.start += 2
             return self.start
 en = EvenNumbers
-for i in en(0, 55):
-    print(i)
+for i in en(10, 25):
+    print(i-2)
